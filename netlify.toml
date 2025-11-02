@@ -1,3 +1,8 @@
 [build]
   publish = "."
   command = ""
+
+[functions]
+  node_bundler = "esbuild" # Recommended for better performance
+[[redirects]]
+  status = 200 # Important for proxying; ensures the URL in the browser doesn't change
