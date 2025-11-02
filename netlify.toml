@@ -1,4 +1,3 @@
 [build]
-  base = "RBProxy"
-  publish = "RBProxy"
+  publish = "."
   command = ""
