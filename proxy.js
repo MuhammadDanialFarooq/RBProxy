@@ -8,7 +8,7 @@ let firstStarted = new Date().toISOString();
 
 // GitHub repo info from environment
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const GITHUB_REPO = MuhammadDanialFarooq
+const GITHUB_REPO = MuhammadDanialFarooq//process.env.GITHUB_REPO; // e.g. "username/portfolio"
 const LOG_PATH = "logs/uptime.json";
 
 async function updateGitHubLog(entry) {
