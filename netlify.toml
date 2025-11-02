@@ -4,5 +4,8 @@
 
 [functions]
   node_bundler = "esbuild" # Recommended for better performance
+  directory = "netlify/functions"
+  
 [[redirects]]
   status = 200 # Important for proxying; ensures the URL in the browser doesn't change
+
