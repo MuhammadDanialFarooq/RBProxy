@@ -9,3 +9,11 @@
 [[redirects]]
   status = 200 # Important for proxying; ensures the URL in the browser doesn't change
 
+{
+  "name": "rbproxy",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
+}
